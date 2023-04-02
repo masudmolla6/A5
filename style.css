@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+.container{
+    display: flex;;
+    flex-direction: column;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.card{
+    text-align: center;
+}
+.table{
+    width: 100%;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+
+}
+td{
+    text-align: center;
+}
+.player-expance{
+    width: 100%;
+    text-align: center;
+}
+.totall-amout{
+    text-align: center;
+    margin-top: 30px;
+}
+input{
+    margin-bottom: 20px;
+}
+.bdg{
+    text-align: center;
+}
+.finall{
+    margin-top: 20px;
+    text-align: center;
+}

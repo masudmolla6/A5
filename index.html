@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Five</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Choose Your Favourit Five</h1>
+    </header>
+    <main class="container">
+        <section>
+            <div class="cards">
+                <div class="card">
+                    <h1>Ronaldinho</h1>
+                    <button class="player-btn">Select</button>
+                </div>
+                <div class="card">
+                    <h1>Naymar Jr.</h1>
+                    <button class="player-btn">Select</button>
+                </div>
+                <div class="card">
+                    <h1>Cr7</h1>
+                    <button class="player-btn">Select</button>
+                </div>
+                <div class="card">
+                    <h1>Silva</h1>
+                    <button class="player-btn">Select</button>
+                </div>
+                <div class="card">
+                    <h1>Salha</h1>
+                    <button class="player-btn">Select</button>
+                </div>
+                <div class="card">
+                    <h1>Casimero</h1>
+                    <button class="player-btn">Select</button>
+                </div>
+                <div class="card">
+                    <h1>Raphinha</h1>
+                    <button class="player-btn">Select</button>
+                </div>
+                <div class="card">
+                    <h1>Sadio Mane</h1>
+                    <button class="player-btn">Select</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1 class="bdg">Budget</h1>
+            <div class="player-expance">
+                <h3>per player</h3>
+                <input type="number" value="1000" id="input-field">
+                <button id="btn-cal" onclick="playerExpance()">Calculate</button>
+                <h2>player Expencess: $<span id="p-expencess">0000</span></h2>
+            </div>
+            <div class="totall-amout">
+                <h4>Manager:<input type="number" name="" id="input-field2" value="2000"></h4>
+                <h4>Coach:<input type="number" name="" id="input-field3" value="4000"></h4>
+                <button id="totall-cal" onclick="totallCost()">Totall Cost</button>
+            </div>
+        </section>
+        <section>
+            <h1 class="finall">Totall Cost:$<span id="result"></span></h1>
+        </section>
+    </main>
+
+
+
+    <script src="fav.js"></script>
+</body>
+</html>
